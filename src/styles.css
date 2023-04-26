@@ -1,0 +1,37 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .uiu{
+    background-color: brown;
+    width: 150px; ;
+
+  }
+  .card {
+    width: calc(33.3% - 10px);
+    margin-bottom: 20px;
+    background-color: #001cbb29;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      width: calc(50% - 10px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
